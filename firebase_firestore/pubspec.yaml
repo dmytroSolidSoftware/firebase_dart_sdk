@@ -8,14 +8,13 @@ environment:
 
 dependencies:
   firebase_common:
-    path: ../firebase_common
-    # git:
-    #   url: https://github.com/fluttercommunity/firebase_dart_sdk
-    #   path: firebase_common
+     git:
+       url: https://github.com/dmytroSolidSoftware/firebase_dart_sdk.git
+       path: firebase_common
 
   firebase_database_collection:
     git:
-      url: https://github.com/fluttercommunity/firebase_dart_sdk
+      url: https://github.com/dmytroSolidSoftware/firebase_dart_sdk.git
       path: firebase_database_collection
 
   protobuf: ^1.0.1
@@ -24,12 +23,12 @@ dependencies:
 
 
   firebase_internal:
-    path: ../firebase_internal
+    git:
+      url: https://github.com/dmytroSolidSoftware/firebase_dart_sdk.git
+      path: firebase_internal
 
 dev_dependencies:
   test: ^1.6.8
   mockito: ^4.1.0
   moor_ffi: ^0.2.0
   uuid: ^2.0.0
-
-latest_commit: 557749eeddbecdc274498760bddbae7c230e6765
